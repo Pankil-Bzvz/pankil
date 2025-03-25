@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Pankil",
+    "slug": "pankil",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pankil19org.pankil"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pankil19org.pankil"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "692188fd-6fd4-4176-a19b-0860fb33a2ba"
+      }
+    },
+    "owner": "pankil19-org",
+    "updates": {
+      "url": "https://u.expo.dev/692188fd-6fd4-4176-a19b-0860fb33a2ba"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
